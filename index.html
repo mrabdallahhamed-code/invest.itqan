@@ -1141,16 +1141,16 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
     <form class="cform" onsubmit="handleSubmit(event)">
       <div class="cform-title">أرسل لنا طلبك</div>
       <div class="frow">
-        <div class="fg"><label>الاسم الكامل</label><input type="text" placeholder="John Smith" required></div>
-        <div class="fg"><label>الجنسية</label><input type="text" placeholder="American" required></div>
+        <div class="fg"><label>الاسم الكامل</label><input type="text" id="f_name" placeholder="John Smith" required></div>
+        <div class="fg"><label>الجنسية</label><input type="text" id="f_nationality" placeholder="American" required></div>
       </div>
       <div class="frow">
-        <div class="fg"><label>البريد الإلكتروني</label><input type="email" placeholder="email@company.com" required></div>
-        <div class="fg"><label>رقم الهاتف</label><input type="tel" placeholder="+966..." dir="ltr"></div>
+        <div class="fg"><label>البريد الإلكتروني</label><input type="email" id="f_email" placeholder="email@company.com" required></div>
+        <div class="fg"><label>رقم الهاتف</label><input type="tel" id="f_phone" placeholder="+966..." dir="ltr"></div>
       </div>
       <div class="fg">
         <label>الخدمة المطلوبة</label>
-        <select>
+        <select id="f_service">
           <option value="">اختر الخدمة...</option>
           <option>رخصة الاستثمار الأجنبي</option>
           <option>تأسيس شركة بملكية 100%</option>
@@ -1163,7 +1163,7 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
       </div>
       <div class="fg">
         <label>القطاع الاستثماري</label>
-        <select>
+        <select id="f_sector">
           <option value="">اختر القطاع...</option>
           <option>التكنولوجيا والرقمنة</option>
           <option>الطاقة المتجددة</option>
@@ -1176,7 +1176,7 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
           <option>قطاع آخر</option>
         </select>
       </div>
-      <div class="fg"><label>تفاصيل إضافية</label><textarea rows="3" placeholder="صف باختصار مشروعك الاستثماري..."></textarea></div>
+      <div class="fg"><label>تفاصيل إضافية</label><textarea id="f_details" rows="3" placeholder="صف باختصار مشروعك الاستثماري..."></textarea></div>
       <button type="submit" class="btn-p" style="width:100%;border:none;padding:1rem;font-size:1rem;border-radius:8px">إرسال الطلب ←</button>
     </form>
   </div>
@@ -1240,11 +1240,32 @@ document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 // Form submit
 function handleSubmit(e){
   e.preventDefault();
-  const btn = e.target.querySelector('button[type="submit"]');
+  const form = e.target;
+
+  const name = document.getElementById('f_name').value.trim();
+  const nationality = document.getElementById('f_nationality').value.trim();
+  const email = document.getElementById('f_email').value.trim();
+  const phone = document.getElementById('f_phone').value.trim();
+  const service = document.getElementById('f_service').value;
+  const sector = document.getElementById('f_sector').value;
+  const details = document.getElementById('f_details').value.trim();
+
+  let msg = 'طلب استثمار جديد من موقع إتقان:%0A%0A';
+  msg += 'الاسم: ' + encodeURIComponent(name) + '%0A';
+  msg += 'الجنسية: ' + encodeURIComponent(nationality) + '%0A';
+  msg += 'البريد الإلكتروني: ' + encodeURIComponent(email) + '%0A';
+  if(phone) msg += 'رقم الهاتف: ' + encodeURIComponent(phone) + '%0A';
+  if(service) msg += 'الخدمة المطلوبة: ' + encodeURIComponent(service) + '%0A';
+  if(sector) msg += 'القطاع الاستثماري: ' + encodeURIComponent(sector) + '%0A';
+  if(details) msg += 'تفاصيل إضافية: ' + encodeURIComponent(details) + '%0A';
+
+  window.open('https://wa.me/966569051686?text=' + msg, '_blank');
+
+  const btn = form.querySelector('button[type="submit"]');
   const orig = btn.textContent;
-  btn.textContent = '✓ تم الإرسال بنجاح!';
+  btn.textContent = '✓ سيتم فتح واتساب الآن';
   btn.style.background = 'var(--g3)';
-  setTimeout(()=>{ btn.textContent = orig; btn.style.background = ''; e.target.reset(); }, 3000);
+  setTimeout(()=>{ btn.textContent = orig; btn.style.background = ''; form.reset(); }, 3000);
 }
 </script>
 </body>
