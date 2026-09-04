@@ -845,6 +845,39 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
   .scs-header{flex-direction:column}
 }
 
+/* ===== قصص نجاح / مقارنة ===== */
+.proof-section{padding:6rem 5rem;background:var(--off);}
+@media(max-width:768px){.proof-section{padding:4rem 1.4rem;}}
+.proof-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:2rem;max-width:1180px;margin:0 auto;align-items:stretch;}
+@media(max-width:900px){.proof-grid{grid-template-columns:1fr;}}
+.proof-card{border-radius:24px;padding:2.6rem;position:relative;overflow:hidden;}
+.proof-card.win{background:linear-gradient(160deg,var(--g) 0%,var(--g3) 100%);color:var(--w);box-shadow:var(--sh2);}
+.proof-card.warn{background:var(--w);border:1.5px solid var(--bd);box-shadow:var(--sh);}
+.proof-badge{display:inline-flex;align-items:center;gap:.5rem;font-size:.68rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;padding:.4rem 1rem;border-radius:999px;margin-bottom:1.3rem;}
+.proof-card.win .proof-badge{background:rgba(255,255,255,.12);color:var(--gold3);}
+.proof-card.warn .proof-badge{background:#FCECEA;color:#B5442E;}
+.proof-card h3{font-family:'Cormorant Garamond',serif;font-size:1.7rem;margin-bottom:1rem;line-height:1.35;}
+.proof-card.win h3{color:var(--w);}
+.proof-card.warn h3{color:var(--t);}
+.proof-card p{font-size:.95rem;line-height:1.9;margin-bottom:1rem;}
+.proof-card.win p{color:#D9E0D6;}
+.proof-card.warn p{color:var(--t2);}
+.proof-stats{display:flex;gap:1.6rem;margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid rgba(255,255,255,.15);}
+.proof-card.warn .proof-stats{border-top:1px solid var(--bd);}
+.proof-stat b{display:block;font-family:'Cormorant Garamond',serif;font-size:1.7rem;color:var(--gold3);}
+.proof-card.warn .proof-stat b{color:#B5442E;}
+.proof-stat span{font-size:.72rem;}
+.proof-card.win .proof-stat span{color:#B9C7B9;}
+.proof-card.warn .proof-stat span{color:var(--t3);}
+
+/* ===== شركاء نجاحنا ===== */
+.clients-section{padding:5rem 5rem 6rem;background:var(--w);text-align:center;}
+@media(max-width:768px){.clients-section{padding:3.5rem 1.4rem 4.5rem;}}
+.clients-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;max-width:980px;margin:2.4rem auto 0;}
+@media(max-width:768px){.clients-grid{grid-template-columns:1fr 1fr;}}
+.client-chip{background:var(--gtint);border:1px solid var(--bd);border-radius:14px;padding:1.3rem 1rem;font-size:.85rem;font-weight:700;color:var(--t2);display:flex;align-items:center;justify-content:center;text-align:center;min-height:76px;transition:transform .2s,box-shadow .2s;}
+.client-chip:hover{transform:translateY(-3px);box-shadow:var(--sh);color:var(--g);}
+
 </style>
 <!-- TikTok Pixel Code Start -->
 <script>
@@ -874,6 +907,7 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
     <li><a href="#process" data-en="Process">آلية العمل</a></li>
     <li><a href="#why" data-en="Why Saudi">لماذا السعودية</a></li>
     <li><a href="#acquisition" data-en="Acquisition">الاستحواذ</a></li>
+    <li><a href="#clients" data-en="Our Clients">عملاؤنا</a></li>
     <li><a href="articles/" data-en="Articles">مقالات</a></li>
     <li><a href="https://start.itqanbs.sa" class="nav-btn" data-en="Get Started">ابدأ الآن</a></li>
     <li><button id="langToggleBtn" onclick="toggleLang()" style="background:transparent;border:1px solid var(--bd);border-radius:6px;padding:.45rem 1rem;font-family:inherit;font-size:.82rem;font-weight:700;color:var(--g);cursor:pointer">EN</button></li>
@@ -992,22 +1026,39 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
 <section class="services" id="services">
   <div class="services-intro">
     <div class="reveal">
-      <div class="sl" data-en="Our Services">خدماتنا</div>
-      <h2 class="st" data-en="Integrated Solutions for the Foreign Investor">حلول متكاملة للمستثمر الأجنبي</h2>
+      <div class="sl" data-en="One Journey, Four Connected Stages">رحلة واحدة، أربع مراحل متصلة</div>
+      <h2 class="st" data-en="It's Not Four Services — It's One Complete Journey">هذي مو أربع خدمات منفصلة — هذي رحلة واحدة متكاملة</h2>
       <div class="gline"></div>
     </div>
-    <p class="sd reveal" style="transition-delay:.1s" data-en="A comprehensive package of services designed specifically for non-Saudi investors seeking to enter and grow confidently in the Saudi market.">حزمة شاملة من الخدمات المصمَّمة خصيصاً للمستثمرين غير السعوديين الراغبين في دخول السوق السعودي والنمو فيه بثقة.</p>
-  </div>
-  <!-- Services: 3 main + 1 wide support card -->
+    <p class="sd reveal" style="transition-delay:.1s" data-en="From preparing your foreign company to running your Saudi business day-to-day, every stage below connects directly to the next — one team walks with you the entire way.">من تجهيز شركتك الأجنبية إلى تشغيل شركتك السعودية يومياً، كل مرحلة أدناه متصلة مباشرة بالتالية — فريق واحد يرافقك الطريق كامل.</p>
+    </div>
+  <!-- رحلة العميل: 4 مراحل متصلة بترتيب زمني صحيح -->
   <div class="svc-grid-new">
-    <!-- Card 1: رخصة الاستثمار -->
+    <!-- المرحلة 1: التجهيز (الاستحواذ على شركة أجنبية إن لم تكن جاهزة) -->
     <div class="svc-card-new reveal">
       <div class="scn-num">01</div>
       <div class="scn-icon">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="14" cy="24" r="10"/><circle cx="34" cy="24" r="10"/><path d="M24 14v20"/><path d="M19 19l5-5 5 5"/><path d="M19 29l5 5 5-5"/></svg>
+      </div>
+      <h3 data-en="Stage 1: Get Ready">المرحلة الأولى: التجهيز</h3>
+      <p data-en="Already have a foreign company? We use it directly. If not, our team in 14 countries helps you acquire one that meets all licensing requirements.">عندك شركة أجنبية جاهزة؟ نستخدمها مباشرة. ما عندك؟ فريقنا في 14 دولة يساعدك تستحوذ على شركة مستوفية لكل شروط الترخيص.</p>
+      <ul class="scn-list">
+        <li data-en="Assessing your current readiness">تقييم جاهزيتك الحالية</li>
+        <li data-en="Acquiring a compliant company if needed">الاستحواذ على شركة مؤهلة عند الحاجة</li>
+        <li data-en="Document authentication at the Saudi embassy">تصديق المستندات لدى السفارة السعودية</li>
+        <li data-en="Shipping documents to the Kingdom">شحن المستندات للمملكة</li>
+      </ul>
+      <div class="scn-arrow">←</div>
+    </div>
+
+    <!-- المرحلة 2: رخصة الاستثمار -->
+    <div class="svc-card-new reveal" style="transition-delay:.1s">
+      <div class="scn-num">02</div>
+      <div class="scn-icon">
         <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="8" y="6" width="32" height="36" rx="3"/><line x1="16" y1="16" x2="32" y2="16"/><line x1="16" y1="22" x2="32" y2="22"/><line x1="16" y1="28" x2="24" y2="28"/><circle cx="36" cy="36" r="8"/><path d="M33 36l2 2 4-4"/></svg>
       </div>
-      <h3 data-en="Foreign Investment License">رخصة الاستثمار الأجنبي</h3>
-      <p data-en="We obtain the MISA license from the Saudi Ministry of Investment on your behalf, as quickly and smoothly as possible.">نستحصل نيابةً عنك على رخصة MISA من وزارة الاستثمار السعودية بأسرع وقت وأقل تعقيد ممكن.</p>
+      <h3 data-en="Stage 2: Get Licensed">المرحلة الثانية: الترخيص</h3>
+      <p data-en="With your company file ready, we obtain your MISA investment license from the Saudi Ministry of Investment as quickly as possible.">بملف شركتك جاهز، نستحصل نيابةً عنك على رخصة MISA من وزارة الاستثمار السعودية بأسرع وقت ممكن.</p>
       <ul class="scn-list">
         <li data-en="Investor and sector eligibility assessment">تقييم أهلية المستثمر والقطاع</li>
         <li data-en="Preparing and submitting the complete file">إعداد وتقديم الملف كاملاً</li>
@@ -1017,14 +1068,14 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
       <div class="scn-arrow">←</div>
     </div>
 
-    <!-- Card 2: تأسيس الشركة -->
-    <div class="svc-card-new reveal" style="transition-delay:.1s">
-      <div class="scn-num">02</div>
+    <!-- المرحلة 3: تأسيس الشركة -->
+    <div class="svc-card-new reveal" style="transition-delay:.2s">
+      <div class="scn-num">03</div>
       <div class="scn-icon">
         <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M24 4L4 14v8c0 12 8 22 20 26 12-4 20-14 20-26v-8L24 4z"/><path d="M16 24l5 5 11-11"/></svg>
       </div>
-      <h3 data-en="100%-Owned Company Formation">تأسيس شركة بملكية 100%</h3>
-      <p data-en="We establish a Saudi legal entity with full foreign ownership — no local partner required — from registration to bank account opening.">نؤسس كياناً قانونياً سعودياً بملكية أجنبية كاملة — بدون شريك محلي — من التسجيل حتى فتح الحساب البنكي.</p>
+      <h3 data-en="Stage 3: Get Established">المرحلة الثالثة: التأسيس</h3>
+      <p data-en="With your license in hand, we establish your Saudi legal entity with full foreign ownership — from registration to opening your bank account.">برخصتك جاهزة، نؤسس كيانك القانوني السعودي بملكية أجنبية كاملة — من التسجيل حتى فتح الحساب البنكي.</p>
       <ul class="scn-list">
         <li data-en="100% foreign ownership">ملكية أجنبية 100%</li>
         <li data-en="Issuing the articles of incorporation and commercial registration">استخراج عقد التأسيس والسجل التجاري</li>
@@ -1034,24 +1085,7 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
       <div class="scn-arrow">←</div>
     </div>
 
-    <!-- Card 3: استحواذ خارجي -->
-    <div class="svc-card-new reveal" style="transition-delay:.2s">
-      <div class="scn-num">03</div>
-      <div class="scn-icon">
-        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="14" cy="24" r="10"/><circle cx="34" cy="24" r="10"/><path d="M24 14v20"/><path d="M19 19l5-5 5 5"/><path d="M19 29l5 5 5-5"/></svg>
-      </div>
-      <h3 data-en="Foreign Company Acquisition">الاستحواذ على شركات خارجية</h3>
-      <p data-en="We have a team in 14 countries to acquire fully compliant companies that meet MISA requirements.">نمتلك فريقاً في 14 دولة للاستحواذ على شركات نظامية 100% ومتوافقة مع اشتراطات MISA.</p>
-      <ul class="scn-list">
-        <li data-en="Acquiring a company that meets licensing conditions">الاستحواذ على شركة متوافقة مع شروط الترخيص</li>
-        <li data-en="Transferring ownership of the foreign company">نقل ملكية الشركة الخارجية</li>
-        <li data-en="Document authentication at the Saudi embassy">تصديق المستندات لدى السفارة السعودية</li>
-        <li data-en="Shipping documents to the Kingdom">شحن المستندات للمملكة</li>
-      </ul>
-      <div class="scn-arrow">←</div>
-    </div>
-
-    <!-- Card 4 WIDE: خدمات الدعم -->
+    <!-- المرحلة 4 WIDE: النمو المستمر (خدمات الدعم) -->
     <div class="svc-card-support reveal" style="transition-delay:.15s">
       <div class="scs-header">
         <div class="scs-icon">
@@ -1059,8 +1093,8 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
         </div>
         <div>
           <div class="scn-num" style="position:static;font-size:1rem;margin-bottom:.3rem">04</div>
-          <h3 style="font-size:1.25rem" data-en="Integrated Support Services">خدمات الدعم المتكاملة</h3>
-          <p style="margin:0;font-size:.88rem;color:var(--t3)" data-en="We support you in every aspect of managing your business after incorporation">نرافقك في كل جانب من جوانب إدارة أعمالك بعد التأسيس</p>
+          <h3 style="font-size:1.25rem" data-en="Stage 4: Grow With Us">المرحلة الرابعة: النمو المستمر</h3>
+          <p style="margin:0;font-size:.88rem;color:var(--t3)" data-en="Your company is now live — we stay with you for daily operations, so you can focus on growth">شركتك صارت حقيقية الآن — نبقى معك بالتشغيل اليومي، عشان تركّز أنت على النمو</p>
         </div>
       </div>
       <div class="scs-grid">
@@ -1099,36 +1133,76 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
 
 <!-- PROCESS -->
 <section class="process-section" id="process">
-  <div class="sl" data-en="How We Work">كيف نعمل</div>
-  <h2 class="st" style="color:var(--w)" data-en="A clear path from idea to launch">مسار واضح من الفكرة إلى الإطلاق</h2>
+  <div class="sl" data-en="The Same Journey, Step by Step">نفس الرحلة، خطوة بخطوة</div>
+  <h2 class="st" style="color:var(--w)" data-en="One Team With You From Day One to Daily Operations">فريق واحد معك من أول يوم إلى التشغيل اليومي</h2>
   <div class="gline"></div>
   <div class="steps-wrap reveal">
     <div class="steps-connector"></div>
     <div class="step-item">
       <div class="step-bubble"><span class="step-num">01</span></div>
-      <h4 data-en="Initial Consultation">الاستشارة الأولية</h4>
-      <p data-en="A free session to assess the opportunity and determine the best path">جلسة مجانية لتقييم الفرصة وتحديد أفضل مسار</p>
+      <h4 data-en="Get Ready">التجهيز</h4>
+      <p data-en="Using your existing foreign company, or acquiring a compliant one for you">باستخدام شركتك الأجنبية الجاهزة، أو استحواذ شركة مؤهلة لك</p>
     </div>
     <div class="step-item">
       <div class="step-bubble"><span class="step-num">02</span></div>
-      <h4 data-en="Investment Licensing">الترخيص الاستثماري</h4>
+      <h4 data-en="Get Licensed">الترخيص</h4>
       <p data-en="Preparing and submitting the complete MISA license application">إعداد وتقديم طلب رخصة MISA كاملاً</p>
     </div>
     <div class="step-item">
       <div class="step-bubble"><span class="step-num">03</span></div>
-      <h4 data-en="Company Formation">تأسيس الشركة</h4>
-      <p data-en="Registering the legal entity with 100% ownership">تسجيل الكيان القانوني بملكية 100%</p>
+      <h4 data-en="Get Established">التأسيس</h4>
+      <p data-en="Registering the legal entity with 100% ownership and opening the bank account">تسجيل الكيان القانوني بملكية 100% وفتح الحساب البنكي</p>
     </div>
     <div class="step-item">
       <div class="step-bubble"><span class="step-num">04</span></div>
-      <h4 data-en="Operational Setup">التهيئة التشغيلية</h4>
-      <p data-en="Bank accounts, tax registration, human resources">حسابات بنكية، تسجيل ضريبي، موارد بشرية</p>
+      <h4 data-en="Grow With Us">النمو المستمر</h4>
+      <p data-en="Ongoing HR, accounting, marketing, and management support">دعم مستمر بالموارد البشرية، الحسابات، التسويق، والإدارة</p>
     </div>
-    <div class="step-item">
-      <div class="step-bubble"><span class="step-num">05</span></div>
-      <h4 data-en="Launch & Growth">الإطلاق والنمو</h4>
-      <p data-en="Starting operations with continuous support at every stage">بدء التشغيل مع دعم مستمر في كل مرحلة</p>
+  </div>
+</section>
+
+<!-- PROOF: قصة نجاح + مقارنة -->
+<section class="proof-section" id="proof">
+  <div class="sl reveal" style="display:flex;justify-content:center;" data-en="Real Results">نتائج حقيقية</div>
+  <h2 class="st reveal" style="max-width:100%;text-align:center;margin:0 auto 1rem;" data-en="The Difference Between the Right Partner and the Wrong One">الفرق بين الشريك الصحيح والشريك الخاطئ</h2>
+  <div class="gline" style="margin:1rem auto 3rem;"></div>
+
+  <div class="proof-grid">
+    <div class="proof-card win reveal">
+      <span class="proof-badge">✓ <span data-en="Success Story">قصة نجاح</span></span>
+      <h3 data-en="From License to Government Tenders">من الرخصة إلى المناقصات الحكومية</h3>
+      <p data-en="We obtained the investment license for one of our clients, established his Saudi company from scratch, and continue to manage his accounting, HR, and business consulting today.">حصّلنا لأحد عملائنا على رخصة الاستثمار، وأسسنا له شركته السعودية من الصفر، ولسا نمسك له المحاسبة والموارد البشرية والاستشارات لين اليوم.</p>
+      <p data-en="The result: his company now provides services to government entities and actively wins government tenders — built on a foundation set up correctly from day one.">النتيجة: شركته الآن تقدّم خدمات لجهات حكومية وتفوز بمناقصات حكومية فعلياً — على أساس تأسيس صحيح من أول يوم.</p>
+      <div class="proof-stats">
+        <div class="proof-stat"><b data-en="1 Team">فريق واحد</b><span data-en="License → Incorporation → Ongoing Support">الرخصة ← التأسيس ← الدعم المستمر</span></div>
+        <div class="proof-stat"><b data-en="Active Today">مستمر حتى اليوم</b><span data-en="Winning government tenders">يفوز بمناقصات حكومية</span></div>
+      </div>
     </div>
+
+    <div class="proof-card warn reveal" style="transition-delay:.1s">
+      <span class="proof-badge">⚠ <span data-en="A Cautionary Example">مثال تحذيري</span></span>
+      <h3 data-en="Choosing the Cheaper Office Cost More">اختيار المكتب الأرخص كلّف أكثر</h3>
+      <p data-en="After we prepared a full offer for a prospective client, he chose to go with a different office instead. The incorporation was completed with significant errors.">بعد ما جهّزنا عرضاً كاملاً لعميل محتمل، اختار يذهب لمكتب ثاني بدلاً منا. تم تأسيس شركته بأخطاء جوهرية.</p>
+      <p data-en="Those errors led to real financial losses and required extensive corrections — costing far more time and money than getting it right from the start.">هذي الأخطاء تسبّبت بخسائر مالية حقيقية واحتاجت تعديلات كثيرة ومكلفة — أكثر بكثير من تكلفة التأسيس الصحيح من البداية.</p>
+      <div class="proof-stats">
+        <div class="proof-stat"><b data-en="Costly Fixes">تعديلات مكلفة</b><span data-en="Extensive corrections required">تصحيحات جوهرية مطلوبة</span></div>
+        <div class="proof-stat"><b data-en="Lesson">الدرس</b><span data-en="The right foundation matters more than the lowest price">الأساس الصحيح أهم من أقل سعر</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS: شركاء نجاحنا -->
+<section class="clients-section" id="clients">
+  <div class="sl reveal" style="display:flex;justify-content:center;" data-en="Trusted By">ثقة شركاء حقيقيين</div>
+  <h2 class="st reveal" style="max-width:100%;text-align:center;margin:0 auto;" data-en="Companies We've Helped Establish and Grow">شركات ساعدناها تتأسس وتنمو</h2>
+  <div class="clients-grid reveal">
+    <div class="client-chip">ريوسيرف اندستريال سوليوشنز</div>
+    <div class="client-chip">شركة القدرة المحركة للتجارة</div>
+    <div class="client-chip">شركة ركاز نجد</div>
+    <div class="client-chip">شركة أنماط المراقبة</div>
+    <div class="client-chip">شركة أعمال اللياقة الرياضي</div>
+    <div class="client-chip">شركة أسس الأنظمة الجديدة</div>
   </div>
 </section>
 
@@ -1201,8 +1275,8 @@ footer{background:var(--t);padding:5rem 5rem 2.5rem}
       </div>
     </div>
     <div class="reveal" style="transition-delay:.12s">
-      <div class="sl" data-en="Foreign Acquisition">الاستحواذ الخارجي</div>
-      <h2 class="st" data-en="Acquire Global Companies with Our Expert Support">استحوذ على شركات عالمية بدعم خبرائنا</h2>
+      <div class="sl" data-en="Stage 1 in Detail: Getting Ready">تفاصيل المرحلة الأولى: التجهيز</div>
+      <h2 class="st" data-en="No Foreign Company Yet? We Acquire One for You">لسا ما عندك شركة أجنبية؟ نستحوذ عليها لك</h2>
       <div class="gline"></div>
       <p class="sd" style="margin-bottom:2rem" data-en="We have a team in 14 countries worldwide to acquire fully legitimate companies compliant with Saudi investment licensing requirements.">نمتلك فريقاً في 14 دولة حول العالم للاستحواذ على شركات نظامية 100% ومتوافقة مع شروط إصدار الاستثمار بالمملكة العربية السعودية.</p>
       <div class="acq-list">
