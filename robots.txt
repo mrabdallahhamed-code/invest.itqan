@@ -20,4 +20,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://invest.itqan.sa/sitemap.xml
+Sitemap: https://invest.itqanbs.sa/sitemap.xml
