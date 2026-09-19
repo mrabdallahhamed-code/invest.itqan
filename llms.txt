@@ -1,17 +1,55 @@
-# إتقان لخدمات الأعمال (Itqan Business Services)
+# Itqan Invest — إتقان للاستثمار
 
-> الموقع التسويقي الرسمي لإتقان لخدمات الأعمال — بوابة المستثمرين الأجانب لتأسيس شركات في المملكة العربية السعودية بملكية أجنبية كاملة (100%).
+> English: Itqan Invest is the foreign-investor website of Itqan Business Services (Riyadh, Saudi Arabia, founded 2024). It explains and delivers investment registration (commonly called the "MISA license"), company incorporation with 100% foreign ownership, acquisition of a qualified foreign company, and post-setup support. The site is available in English and Arabic.
+> العربية: إتقان للاستثمار هو موقع المستثمر الأجنبي التابع لإتقان لخدمات الأعمال (الرياض، تأسست 2024). يشرح ويقدّم التسجيل الاستثماري (رخصة MISA)، وتأسيس الشركات بملكية أجنبية 100%، والاستحواذ على شركة أجنبية مؤهلة، والدعم بعد التأسيس، والموقع متاح بالعربية والإنجليزية.
 
-## نبذة
-إتقان لخدمات الأعمال شركة متخصصة تقدّم حلولاً متكاملة للمستثمرين الأجانب الراغبين في دخول السوق السعودي، بفريق متخصص حاضر في 14 دولة حول العالم. الخدمات تشمل: رخصة الاستثمار الأجنبي (MISA)، تأسيس شركة بملكية أجنبية كاملة 100%، الاستحواذ على شركات قائمة تستوفي اشتراطات الترخيص، وخدمات ما بعد التأسيس (موارد بشرية، حسابات، تسويق رقمي، إدارة تشغيلية).
+## Key facts
+- Since the updated Investment Law took effect in February 2025, the official procedure is called "investment registration"; many people still say "MISA license".
+- Most sectors allow 100% foreign ownership with no mandatory local partner (some activities are restricted or excluded).
+- Investment registration typically takes 5–15 working days when documents are complete; incorporation and commercial registration follow.
+- Requirements and fees are set by the Ministry of Investment and change; always verify current figures.
+- Execution platform (login, readiness assessment, quotes, e-signature, tracking): https://start.itqanbs.sa/
+- Parent company website: https://www.itqanbs.sa/
 
-## الجمهور المستهدف
-مستثمرون أجانب يرغبون بتأسيس أو نقل شركة إلى المملكة العربية السعودية ضمن رؤية 2030.
+## English pages
+- [Home](https://invest.itqanbs.sa/en/)
+- [Services](https://invest.itqanbs.sa/en/services/)
+- [Investment registration (MISA license)](https://invest.itqanbs.sa/en/services/investment-license/)
+- [Acquiring a qualified foreign company](https://invest.itqanbs.sa/en/services/acquisition/)
+- [Company incorporation](https://invest.itqanbs.sa/en/services/incorporation/)
+- [Post-setup services](https://invest.itqanbs.sa/en/services/support/)
+- [License types](https://invest.itqanbs.sa/en/license-types/)
+- [Client journey](https://invest.itqanbs.sa/en/journey/)
+- [Sectors open to foreign investment](https://invest.itqanbs.sa/en/sectors/)
+- [FAQ](https://invest.itqanbs.sa/en/faq/)
+- [Contact](https://invest.itqanbs.sa/en/contact/)
 
-## روابط رئيسية
-- الموقع التسويقي: https://invest.itqanbs.sa/
-- منصة التنفيذ الرقمية (تسجيل الدخول وطلب العروض): https://start.itqanbs.sa/
-- المقالات والأدلة الإرشادية: https://invest.itqanbs.sa/articles/
+### Guides
+- [Investment Registration (MISA License) Guide](https://invest.itqanbs.sa/en/articles/misa-license-guide.html)
+- [Service vs Commercial License](https://invest.itqanbs.sa/en/articles/service-vs-commercial-license.html)
+- [Investment vs Entrepreneur License](https://invest.itqanbs.sa/en/articles/investment-vs-entrepreneur-license.html)
+- [Keep Your Foreign Company Active](https://invest.itqanbs.sa/en/articles/qualified-foreign-company.html)
 
-## ملاحظة
-هذا موقع تسويقي/معلوماتي، بينما التنفيذ الفعلي (تسجيل حساب، تقييم الجاهزية، طلب عروض أسعار، متابعة إجراءات التأسيس) يتم عبر المنصة الرقمية على start.itqanbs.sa.
+## الصفحات العربية
+- [الرئيسية](https://invest.itqanbs.sa/)
+- [الخدمات](https://invest.itqanbs.sa/services/)
+- [التسجيل الاستثماري (رخصة MISA)](https://invest.itqanbs.sa/services/investment-license/)
+- [الاستحواذ على شركة أجنبية مؤهلة](https://invest.itqanbs.sa/services/acquisition/)
+- [تأسيس الشركة](https://invest.itqanbs.sa/services/incorporation/)
+- [خدمات ما بعد التأسيس](https://invest.itqanbs.sa/services/support/)
+- [أنواع التراخيص](https://invest.itqanbs.sa/license-types/)
+- [رحلة العميل](https://invest.itqanbs.sa/journey/)
+- [القطاعات المفتوحة](https://invest.itqanbs.sa/sectors/)
+- [الأسئلة الشائعة](https://invest.itqanbs.sa/faq/)
+- [التواصل](https://invest.itqanbs.sa/contact/)
+
+### الأدلة
+- [دليل التسجيل الاستثماري (رخصة MISA)](https://invest.itqanbs.sa/articles/misa-license-guide.html)
+- [الترخيص الخدمي مقابل التجاري](https://invest.itqanbs.sa/articles/service-vs-commercial-license.html)
+- [الترخيص الاستثماري مقابل ترخيص الريادة](https://invest.itqanbs.sa/articles/investment-vs-entrepreneur-license.html)
+- [لا تتخلص من شركتك الأجنبية](https://invest.itqanbs.sa/articles/qualified-foreign-company.html)
+
+## Contact
+- WhatsApp / phone: +966 56 905 1686
+- Email: info@itqanbs.sa
+- Address: Olaya View, Al Olaya, Riyadh, Saudi Arabia

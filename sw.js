@@ -1,4 +1,8 @@
-// خدمة بسيطة، بدون تخزين مؤقت معقد
-self.addEventListener('install', () => self.skipWaiting());
-self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
-self.addEventListener('fetch', (e) => { e.respondWith(fetch(e.request).catch(() => caches.match(e.request))); });
+/* Retired: the previous service worker cached nothing useful. This version unregisters itself and clears caches. */
+self.addEventListener('install', function () { self.skipWaiting(); });
+self.addEventListener('activate', function (e) {
+  e.waitUntil(
+    caches.keys().then(function (ks) { return Promise.all(ks.map(function (k) { return caches.delete(k); })); })
+      .then(function () { return self.registration.unregister(); })
+  );
+});

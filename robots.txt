@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
 
-# روبوتات الذكاء الاصطناعي — مسموح لها صراحة تقرأ المحتوى
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
@@ -11,7 +13,7 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: Claude-Web
+User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: PerplexityBot
