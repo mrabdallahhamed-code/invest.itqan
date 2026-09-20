@@ -181,3 +181,6 @@ html[dir=ltr] .logo-txt .ln{font-size:1rem}
 @media(max-width:768px){.wa-float{width:54px;height:54px;bottom:14px;inset-inline-end:14px}}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.hh-text h1 .ln{display:block;white-space:nowrap}
+@media(max-width:900px){html[dir=ltr] .hh-text h1 .ln{white-space:normal}}
