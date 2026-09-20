@@ -176,3 +176,6 @@ a.card:hover{transform:translateY(-4px);box-shadow:var(--sh2)}
 /* english (ltr) tuning */
 html[dir=ltr] .pg-hero .eyebrow,html[dir=ltr] .sl{letter-spacing:.16em}
 html[dir=ltr] .logo-txt .ln{font-size:1rem}
+
+.wa-float{position:fixed;inset-inline-end:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:280;transition:transform .2s,box-shadow .2s}.wa-float:hover{transform:scale(1.08);box-shadow:0 12px 30px rgba(0,0,0,.34)}.wa-float:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:768px){.wa-float{width:54px;height:54px;bottom:14px;inset-inline-end:14px}}
