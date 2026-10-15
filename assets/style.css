@@ -213,3 +213,8 @@ html[dir=ltr] .logo-txt .ln{font-size:1rem}
 @media(max-width:640px){.clarity,.hsteps{grid-template-columns:1fr}.hero-home{padding-bottom:8.5rem}}
 .sources{margin:2rem 0 1rem;padding:1rem 1.2rem;background:var(--gtint);border-radius:12px;border-inline-start:4px solid var(--g3);font-size:.88rem;line-height:1.9}
 .sources p{margin:.3rem 0 0}.sources a{color:var(--g3);font-weight:700}
+.logos{list-style:none;display:grid;grid-template-columns:repeat(6,1fr);gap:1rem;align-items:center}
+.logos li{background:var(--w);border:1px solid var(--bd);border-radius:14px;padding:1rem;height:96px;display:flex;align-items:center;justify-content:center}
+.logos img{max-height:64px;max-width:100%;object-fit:contain}
+@media(max-width:1000px){.logos{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:520px){.logos{grid-template-columns:repeat(2,1fr)}}

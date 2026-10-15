@@ -1,7 +1,7 @@
-# Itqan Invest — إتقان للاستثمار
+# Itqan Business Services — إتقان لخدمات الأعمال (invest.itqanbs.sa)
 
-> English: Itqan Invest is the foreign-investor website of Itqan Business Services (Riyadh, Saudi Arabia, founded 2024). It explains and delivers investment license (commonly called the "MISA license"), company incorporation with 100% foreign ownership, acquisition of a qualified foreign company, and post-setup support. The site is available in English and Arabic.
-> العربية: إتقان للاستثمار هو موقع المستثمر الأجنبي التابع لإتقان لخدمات الأعمال (الرياض، تأسست 2024). يشرح ويقدّم الترخيص الاستثماري (رخصة MISA)، وتأسيس الشركات بملكية أجنبية 100%، والاستحواذ على شركة أجنبية مؤهلة، والدعم بعد التأسيس، والموقع متاح بالعربية والإنجليزية.
+> English: This is the foreign-investor website of Itqan Business Services (Riyadh, Saudi Arabia, founded 2025). It explains and delivers investment license (commonly called the "MISA license"), company incorporation with 100% foreign ownership, acquisition of a qualified foreign company, and post-setup support. The site is available in English and Arabic.
+> العربية: هذا موقع المستثمر الأجنبي التابع لإتقان لخدمات الأعمال (الرياض، تأسست 2025). يشرح ويقدّم الترخيص الاستثماري (رخصة MISA)، وتأسيس الشركات بملكية أجنبية 100%، والاستحواذ على شركة أجنبية مؤهلة، والدعم بعد التأسيس، والموقع متاح بالعربية والإنجليزية.
 
 ## Key facts
 - The official procedure is called "investment license"; many people still say "MISA license".
