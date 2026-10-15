@@ -1,12 +1,12 @@
 # Itqan Invest — إتقان للاستثمار
 
-> English: Itqan Invest is the foreign-investor website of Itqan Business Services (Riyadh, Saudi Arabia, founded 2024). It explains and delivers investment registration (commonly called the "MISA license"), company incorporation with 100% foreign ownership, acquisition of a qualified foreign company, and post-setup support. The site is available in English and Arabic.
-> العربية: إتقان للاستثمار هو موقع المستثمر الأجنبي التابع لإتقان لخدمات الأعمال (الرياض، تأسست 2024). يشرح ويقدّم التسجيل الاستثماري (رخصة MISA)، وتأسيس الشركات بملكية أجنبية 100%، والاستحواذ على شركة أجنبية مؤهلة، والدعم بعد التأسيس، والموقع متاح بالعربية والإنجليزية.
+> English: Itqan Invest is the foreign-investor website of Itqan Business Services (Riyadh, Saudi Arabia, founded 2024). It explains and delivers investment license (commonly called the "MISA license"), company incorporation with 100% foreign ownership, acquisition of a qualified foreign company, and post-setup support. The site is available in English and Arabic.
+> العربية: إتقان للاستثمار هو موقع المستثمر الأجنبي التابع لإتقان لخدمات الأعمال (الرياض، تأسست 2024). يشرح ويقدّم الترخيص الاستثماري (رخصة MISA)، وتأسيس الشركات بملكية أجنبية 100%، والاستحواذ على شركة أجنبية مؤهلة، والدعم بعد التأسيس، والموقع متاح بالعربية والإنجليزية.
 
 ## Key facts
-- Since the updated Investment Law took effect in February 2025, the official procedure is called "investment registration"; many people still say "MISA license".
+- The official procedure is called "investment license"; many people still say "MISA license".
 - Most sectors allow 100% foreign ownership with no mandatory local partner (some activities are restricted or excluded).
-- Investment registration typically takes 5–15 working days when documents are complete; incorporation and commercial registration follow.
+- Investment license typically takes 5–15 working days when documents are complete; incorporation and commercial registration follow.
 - Requirements and fees are set by the Ministry of Investment and change; always verify current figures.
 - Execution platform (login, readiness assessment, quotes, e-signature, tracking): https://start.itqanbs.sa/
 - Parent company website: https://www.itqanbs.sa/
@@ -14,7 +14,7 @@
 ## English pages
 - [Home](https://invest.itqanbs.sa/en/)
 - [Services](https://invest.itqanbs.sa/en/services/)
-- [Investment registration (MISA license)](https://invest.itqanbs.sa/en/services/investment-license/)
+- [Investment license (MISA license)](https://invest.itqanbs.sa/en/services/investment-license/)
 - [Acquiring a qualified foreign company](https://invest.itqanbs.sa/en/services/acquisition/)
 - [Company incorporation](https://invest.itqanbs.sa/en/services/incorporation/)
 - [Post-setup services](https://invest.itqanbs.sa/en/services/support/)
@@ -25,21 +25,21 @@
 - [Contact](https://invest.itqanbs.sa/en/contact/)
 
 ### Guides
-- [Investment Registration (MISA License) Guide](https://invest.itqanbs.sa/en/articles/misa-license-guide.html)
+- [Investment License (MISA License) Guide](https://invest.itqanbs.sa/en/articles/misa-license-guide.html)
 - [Service vs Commercial License](https://invest.itqanbs.sa/en/articles/service-vs-commercial-license.html)
 - [Investment vs Entrepreneur License](https://invest.itqanbs.sa/en/articles/investment-vs-entrepreneur-license.html)
 - [Keep Your Foreign Company Active](https://invest.itqanbs.sa/en/articles/qualified-foreign-company.html)
 - [Steps to Set Up a Company in Saudi Arabia](https://invest.itqanbs.sa/en/articles/steps-to-set-up-foreign-company-saudi-arabia.html)
-- [Required Documents for Registration and Incorporation](https://invest.itqanbs.sa/en/articles/documents-required-foreign-company-saudi-arabia.html)
+- [Required Documents for Licensing and Incorporation](https://invest.itqanbs.sa/en/articles/documents-required-foreign-company-saudi-arabia.html)
 - [Do You Need a Saudi Partner?](https://invest.itqanbs.sa/en/articles/do-foreign-investors-need-saudi-partner.html)
-- [Choosing the Right Registration Activity](https://invest.itqanbs.sa/en/articles/choosing-investment-activity-saudi-arabia.html)
-- [Common Registration Mistakes](https://invest.itqanbs.sa/en/articles/common-mistakes-investment-registration-application.html)
+- [Choosing the Right License Activity](https://invest.itqanbs.sa/en/articles/choosing-investment-activity-saudi-arabia.html)
+- [Common Licensing Mistakes](https://invest.itqanbs.sa/en/articles/common-mistakes-investment-registration-application.html)
 - [Obligations After Incorporation](https://invest.itqanbs.sa/en/articles/post-incorporation-obligations-foreign-company-saudi-arabia.html)
 
 ## الصفحات العربية
 - [الرئيسية](https://invest.itqanbs.sa/)
 - [الخدمات](https://invest.itqanbs.sa/services/)
-- [التسجيل الاستثماري (رخصة MISA)](https://invest.itqanbs.sa/services/investment-license/)
+- [الترخيص الاستثماري (رخصة MISA)](https://invest.itqanbs.sa/services/investment-license/)
 - [الاستحواذ على شركة أجنبية مؤهلة](https://invest.itqanbs.sa/services/acquisition/)
 - [تأسيس الشركة](https://invest.itqanbs.sa/services/incorporation/)
 - [خدمات ما بعد التأسيس](https://invest.itqanbs.sa/services/support/)
@@ -50,15 +50,15 @@
 - [التواصل](https://invest.itqanbs.sa/contact/)
 
 ### الأدلة
-- [دليل التسجيل الاستثماري (رخصة MISA)](https://invest.itqanbs.sa/articles/misa-license-guide.html)
+- [دليل الترخيص الاستثماري (رخصة MISA)](https://invest.itqanbs.sa/articles/misa-license-guide.html)
 - [الترخيص الخدمي مقابل التجاري](https://invest.itqanbs.sa/articles/service-vs-commercial-license.html)
 - [الترخيص الاستثماري مقابل ترخيص الريادة](https://invest.itqanbs.sa/articles/investment-vs-entrepreneur-license.html)
 - [لا تتخلص من شركتك الأجنبية](https://invest.itqanbs.sa/articles/qualified-foreign-company.html)
 - [خطوات تأسيس شركة في السعودية](https://invest.itqanbs.sa/articles/steps-to-set-up-foreign-company-saudi-arabia.html)
-- [المستندات المطلوبة للتسجيل والتأسيس](https://invest.itqanbs.sa/articles/documents-required-foreign-company-saudi-arabia.html)
+- [المستندات المطلوبة للترخيص والتأسيس](https://invest.itqanbs.sa/articles/documents-required-foreign-company-saudi-arabia.html)
 - [هل تحتاج إلى شريك سعودي؟](https://invest.itqanbs.sa/articles/do-foreign-investors-need-saudi-partner.html)
-- [اختيار نشاط التسجيل الصحيح](https://invest.itqanbs.sa/articles/choosing-investment-activity-saudi-arabia.html)
-- [أخطاء شائعة في التسجيل الاستثماري](https://invest.itqanbs.sa/articles/common-mistakes-investment-registration-application.html)
+- [اختيار نشاط الترخيص الصحيح](https://invest.itqanbs.sa/articles/choosing-investment-activity-saudi-arabia.html)
+- [أخطاء شائعة في الترخيص الاستثماري](https://invest.itqanbs.sa/articles/common-mistakes-investment-registration-application.html)
 - [الالتزامات بعد التأسيس](https://invest.itqanbs.sa/articles/post-incorporation-obligations-foreign-company-saudi-arabia.html)
 
 ## Contact
