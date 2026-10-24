@@ -4,9 +4,9 @@
 > العربية: هذا موقع المستثمر الأجنبي التابع لإتقان لخدمات الأعمال (الرياض، تأسست 2025). يشرح ويقدّم الترخيص الاستثماري (رخصة MISA)، وتأسيس الشركات بملكية أجنبية 100%، والاستحواذ على شركة أجنبية مؤهلة، والدعم بعد التأسيس، والموقع متاح بالعربية والإنجليزية.
 
 ## Key facts
-- The official procedure is called "investment license"; many people still say "MISA license".
+- The Ministry officially calls the procedure "investment registration"; it is widely known as the "investment license" or "MISA license".
 - Most sectors allow 100% foreign ownership with no mandatory local partner (some activities are restricted or excluded).
-- Investment license typically takes 5–15 working days when documents are complete; incorporation and commercial registration follow.
+- The investment license typically takes 5–15 working days when documents are complete; incorporation and commercial registration follow.
 - Requirements and fees are set by the Ministry of Investment and change; always verify current figures.
 - Execution platform (login, readiness assessment, quotes, e-signature, tracking): https://start.itqanbs.sa/
 - Parent company website: https://www.itqanbs.sa/
@@ -26,6 +26,7 @@
 
 ### Guides
 - [Investment License (MISA License) Guide](https://invest.itqanbs.sa/en/articles/misa-license-guide.html)
+- [Investment License Renewal: Annual Update Guide](https://invest.itqanbs.sa/en/articles/renew-investment-license-annual-update.html)
 - [Service vs Commercial License](https://invest.itqanbs.sa/en/articles/service-vs-commercial-license.html)
 - [Investment vs Entrepreneur License](https://invest.itqanbs.sa/en/articles/investment-vs-entrepreneur-license.html)
 - [Keep Your Foreign Company Active](https://invest.itqanbs.sa/en/articles/qualified-foreign-company.html)
@@ -51,6 +52,7 @@
 
 ### الأدلة
 - [دليل الترخيص الاستثماري (رخصة MISA)](https://invest.itqanbs.sa/articles/misa-license-guide.html)
+- [تجديد الترخيص الاستثماري: دليل التحديث السنوي](https://invest.itqanbs.sa/articles/renew-investment-license-annual-update.html)
 - [الترخيص الخدمي مقابل التجاري](https://invest.itqanbs.sa/articles/service-vs-commercial-license.html)
 - [الترخيص الاستثماري مقابل ترخيص الريادة](https://invest.itqanbs.sa/articles/investment-vs-entrepreneur-license.html)
 - [لا تتخلص من شركتك الأجنبية](https://invest.itqanbs.sa/articles/qualified-foreign-company.html)
