@@ -20,7 +20,6 @@
 - [Post-setup services](https://invest.itqanbs.sa/en/services/support/)
 - [License types](https://invest.itqanbs.sa/en/license-types/)
 - [Client journey](https://invest.itqanbs.sa/en/journey/)
-- [Sectors open to foreign investment](https://invest.itqanbs.sa/en/sectors/)
 - [FAQ](https://invest.itqanbs.sa/en/faq/)
 - [Contact](https://invest.itqanbs.sa/en/contact/)
 
@@ -46,7 +45,6 @@
 - [خدمات ما بعد التأسيس](https://invest.itqanbs.sa/services/support/)
 - [أنواع التراخيص](https://invest.itqanbs.sa/license-types/)
 - [رحلة العميل](https://invest.itqanbs.sa/journey/)
-- [القطاعات المفتوحة](https://invest.itqanbs.sa/sectors/)
 - [الأسئلة الشائعة](https://invest.itqanbs.sa/faq/)
 - [التواصل](https://invest.itqanbs.sa/contact/)
 
