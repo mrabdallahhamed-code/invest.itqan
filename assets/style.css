@@ -258,3 +258,24 @@ html[dir=ltr] .logo-txt .ln{font-size:1rem}
 .cta-note{text-align:center;text-align-last:center;line-height:1.9;margin:-.4rem auto 1.6rem}
 .hero-home{padding-top:4rem}
 .hh-text h1 bdi{font-family:'Tajawal',sans-serif;font-weight:800}
+
+/* hero v2: split layout, same language as the main site */
+.ih{display:grid;grid-template-columns:1.1fr .9fr;min-height:560px;background:var(--g);position:relative;overflow:hidden}
+.ih-text{padding:4.5rem 4rem;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;text-align:start;position:relative}
+.ih-text::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 10%,rgba(242,215,132,.14),transparent 45%);pointer-events:none}
+.ih-text>*{position:relative}
+.ih .pill{margin-bottom:1.3rem}
+.ih .hh-text h1,.ih-text h1{font-size:clamp(1.8rem,2.7vw,2.45rem);line-height:1.45;margin-bottom:1.1rem;text-align:start}
+.ih-text h1 .ln{display:block}
+.ih-text .lead{text-align:start;text-align-last:start;margin:0 0 1.7rem;max-width:560px;font-size:1.05rem;line-height:2}
+.ih .btn-row{justify-content:flex-start;margin-bottom:1.1rem}
+.ih .cta-note{text-align:start;text-align-last:start;margin:0 0 1.6rem;max-width:520px}
+.ih .trust{justify-content:flex-start;gap:.5rem 1.4rem}
+.ih-photo{position:relative;background:#0a1a12;overflow:hidden;min-height:420px}
+.ih-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 30%;opacity:.9}
+.ih-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--g) 0,rgba(30,58,47,.0) 40%)}
+html[dir=ltr] .ih-photo::after{background:linear-gradient(270deg,var(--g) 0,rgba(30,58,47,0) 40%)}
+.ih-badge{position:absolute;bottom:2rem;inset-inline-end:2rem;z-index:2;background:rgba(255,255,255,.95);border-radius:10px;padding:.9rem 1.3rem;box-shadow:0 8px 32px rgba(0,0,0,.2);display:flex;flex-direction:column;color:var(--g)}
+.ih-badge strong{font-size:1.2rem;font-weight:800}
+.ih-badge span{font-size:.78rem;color:var(--t3)}
+@media(max-width:900px){.ih{grid-template-columns:1fr;min-height:0}.ih-photo{display:none}.ih-text{padding:3rem 1.4rem 3.2rem}}
