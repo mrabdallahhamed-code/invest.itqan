@@ -75,10 +75,10 @@ footer .logo-txt .le{color:rgba(255,255,255,.8)}
 @media(max-width:768px){.hero-home{padding:3.2rem 1.2rem 8rem}}
 
 /* sections */
-.section-wrap{padding:5rem 4rem}
+.section-wrap{padding:3.4rem 4rem}
 .section-wrap.bg-tint{background:var(--gtint)}
 .section-wrap.bg-off{background:var(--off)}
-@media(max-width:768px){.section-wrap{padding:3.2rem 1.4rem}}
+@media(max-width:768px){.section-wrap{padding:2.4rem 1.4rem}}
 .block{max-width:1080px;margin:0 auto}
 .block.center{text-align:center}
 .block.narrow{max-width:800px}
